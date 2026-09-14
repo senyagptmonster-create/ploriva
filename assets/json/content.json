@@ -1,0 +1,6 @@
+{
+  "plants": [
+    {"name": "Monstera", "waterFreqDays": 7},
+    {"name": "Snake Plant", "waterFreqDays": 14}
+  ]
+}
