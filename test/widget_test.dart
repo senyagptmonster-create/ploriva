@@ -4,6 +4,6 @@ import 'package:ploriva/ploriva_app.dart';
 void main() {
   testWidgets('PlorivaApp smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const PlorivaApp());
-    expect(find.byType(PlorivaApp), findsOneWidget);
+    expect(find.text('Ploriva Botanical Hub'), findsOneWidget);
   });
 }
